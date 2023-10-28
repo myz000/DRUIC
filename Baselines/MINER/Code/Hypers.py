@@ -1,0 +1,6 @@
+MAX_TITLE = 30
+MAX_ENTITY = 5
+MAX_CONTENT = 50
+MAX_CLICK = 50
+npratio=4
+filter_nums = 10

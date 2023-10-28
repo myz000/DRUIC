@@ -1,16 +1,8 @@
-import numpy as np
 import tensorflow as tf
 import tensorflow.keras as keras
 from tensorflow.keras import layers
-from tensorflow.keras import backend as K
 from base_model import BaseModel
 from layers import AttLayer, SelfAttention, ComputeMasking, OverwriteMasking
-import random
-from tensorflow.keras.regularizers import l2
-
-from data_augmentation import Crop, Mask, Reorder
-
-import datetime
 
 __all__ = ["DRUICModel"]
 

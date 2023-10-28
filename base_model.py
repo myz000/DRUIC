@@ -5,10 +5,9 @@ import numpy as np
 from tqdm import tqdm
 import tensorflow as tf
 from tensorflow import keras
-from datetime import datetime
 
 from newsrec_utils import cal_metric
-from tensorflow.keras import backend as K
+
 
 __all__ = ["BaseModel"]
 
