@@ -1,8 +1,6 @@
-import tensorflow as tf
 import tensorflow.keras as keras
 from tensorflow.keras import layers
 from tensorflow.keras import backend as K
-from tensorflow.keras.regularizers import l2
 
 
 class AttLayer(layers.Layer):
