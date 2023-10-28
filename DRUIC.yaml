@@ -1,0 +1,47 @@
+data:
+  title_size: 30
+  body_size: 50
+  his_size: 50
+  data_format: news
+  npratio: 4
+  
+info:
+  metrics:
+  - group_auc
+  - mean_mrr
+  - ndcg@5;10
+  show_step: 100000
+  
+model:
+  attention_hidden_dim: 200
+  word_emb_dim: 300
+  head_num : 1
+  head_dim: 300
+  dropout: 0.2
+  filter_num: 400
+  window_size: 3
+  cnn_activation: relu
+  model_type: minr
+  dense_activation: relu
+  channels: 5
+  purpose_router_tp: 0.1
+  infer_loss_weight: 0.5
+  ctr1_loss_weight: 0.3
+  ctr2_loss_weight: 0.1
+  aug1: "mask"
+  aug2: "mask"
+  ctr2_crop_tao: 0.2
+  ctr2_mask_gamma: 0.5
+  ctr2_reorder_beta: 0.2
+  ssa_r: 0.5
+  ctr1_mask_ratio: 0.5
+
+
+train:
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.0001
+  loss: cross_entropy_loss
+  optimizer: adam
+  support_quick_scoring: true
+  filter_his_num: 10
