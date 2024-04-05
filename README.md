@@ -1,5 +1,5 @@
 # DRUIC 
-Fine-Grained Multi-Aspect Matching between Disentangled Representations of User Interests and Content for News Recommendation
+Implementation of "Fine-Grained Multi-Aspect Matching between Disentangled Representations of User Interests and Content for News Recommendation" (DASFAA 2024))
 
 ## Dataset
 The origin dataset can be downloaded from https://msnews.github.io/index.html
