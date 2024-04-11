@@ -21,5 +21,5 @@ For some other baselines which the authors had published the code, we utilized p
 **MIECL** : https://github.com/wangsc2113/MIECL 
 
 
-For the baseline without publicly available code, we reproduced it based on its paper, and you can find the reproduced code in the **Baselines** folder, which including **MCCM** and **MINER**.
+For the baseline without publicly available code, we reproduced it based on its paper, and you can find the reproduced code in the **Baselines** folder, which including **MCCM** and **MINER**. For fair comparison, we replace the BERT news encoder within MINER with pretrained Glove embedding vectors and self-attention networks.
 
