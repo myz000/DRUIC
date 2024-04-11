@@ -24,5 +24,5 @@ For some other baselines which the authors had published the code, we utilized p
 For the baseline without publicly available code, we reproduced it based on its paper, and you can find the reproduced code in the **Baselines** folder, which including **MCCM** and **MINER**. For fair comparison, we replace the BERT news encoder within MINER with pretrained Glove embedding vectors and self-attention networks.
 
 Due to page limitations, we removed some experiments from the paper, which we show below:
-figures/lamada.png
+[figures/lamada.png](https://github.com/myz000/DRUIC/blob/c4fc01fed2a2c844dd5d6b4ab818efe2de7bd27f/figures/lamada.png)
 
