@@ -25,6 +25,6 @@ For the baseline without publicly available code, we reproduced it based on its 
 
 Due to page limitations, we removed some experiments from the paper, which we show below:
 <img src="./figures/lamada.png" alt="Editor" width="300">
-<div align="center">
-	<img src="./figures/lamada.png" alt="Editor" width="500">
-</div>
+<img src="./figures/K.png" alt="Editor" width="300">
+<img src="./figures/Without dis.png" alt="Editor" width="300"><img src="./figures/Orthogonal.png" alt="Editor" width="300"><img src="./figures/ours.png" alt="Editor" width="300">
+<img src="./figures/case_study.png" alt="Editor" width="300">
