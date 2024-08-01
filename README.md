@@ -23,12 +23,23 @@ For some other baselines which the authors had published the code, we utilized p
 
 For the baseline without publicly available code, we reproduced it based on its paper, and you can find the reproduced code in the **Baselines** folder, which including **MCCM** and **MINER**. For fair comparison, we replace the BERT news encoder within MINER with pretrained Glove embedding vectors and self-attention networks.
 
+## Additional Experiments
 Due to page limitations, we removed some experiments from the paper, which we show below:
 
-<img src="./figures/lamada.png" alt="Editor" width="300">
+### Hyperparameter Experiment
 
-<img src="./figures/K.png" alt="Editor" width="300">
+From left to right: experiment on loss function weight hyperparameters and experiment on the number of aspects (K) hyperparameters.
 
-<img src="./figures/Without dis.png" alt="Editor" width="300"><img src="./figures/Orthogonal.png" alt="Editor" width="300"><img src="./figures/ours.png" alt="Editor" width="300">
+<img src="./figures/lamada.png" alt="Editor" width="250">        <img src="./figures/K.png" alt="Editor" width="250">
+
+### Visualization of Different Disentanglement Loss
+
+From left to right: No Disentanglement Loss, Orthogonal Disentanglement Loss, and DRUIC: 
+
+<img src="./figures/Without dis.png" alt="Editor" width="250"><img src="./figures/Orthogonal.png" alt="Editor" width="250"><img src="./figures/ours.png" alt="Editor" width="250">
+
+### Case Study
+
+Below is a visualization showing the matching scores between a user's interests and various aspects of news articles. The darker the color, the greater the user's interest in that particular aspect of the news.
 
 <img src="./figures/case_study.png" alt="Editor" width="700">
